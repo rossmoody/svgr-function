@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "nodemon": "nodemon index.js"
+    "nodemon": "nodemon app.js"
   },
-  "devDependencies": {
+  "main": "app.js",
+  "dependencies": {
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-jsx": "^5.5.0",
     "@svgr/plugin-prettier": "^5.5.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.15"
   }
